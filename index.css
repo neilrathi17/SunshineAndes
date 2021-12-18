@@ -1,0 +1,23 @@
+body
+{
+    background-color: black;
+}
+.top
+{
+    color: maroon;
+    background-color:#132f66;
+    font-size: 30px;
+    border-radius: 2px;
+}   
+.braand
+{
+    text-align: center;
+}
+.main
+{
+    padding: 10px;
+}
+#headpic
+{
+    width: 100%;
+}
