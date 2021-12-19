@@ -2,12 +2,16 @@ body
 {
     background-color: black;
 }
+img
+{
+    object-fit: cover;
+}
 .top
 {
     color: maroon;
-    background-color:#132f66;
+    background-color:whitesmoke;
     font-size: 30px;
-    border-radius: 2px;
+    border-radius: 0 0 5px 5px;
 }   
 .braand
 {
@@ -17,7 +21,71 @@ body
 {
     padding: 10px;
 }
+.memetext1
+{
+    color: red;
+    float: left;
+    margin: 5px;
+}
+.memetext2
+{
+    float: right;
+    color: red;
+    margin: 5px;
+}
 #headpic
 {
     width: 100%;
+}
+.meme
+{
+    margin: 20px;
+    border: 0.5px solid white;
+    height: 400px;
+    padding: 5px;
+
+   
+}
+.meme:hover
+{
+    box-shadow: white;
+}
+.memepics1
+{
+    width: 20%;
+    float: right;
+    position: relative;
+    height: 80%;
+    margin: 20px;
+    
+}
+.memepics2
+{
+    float: left;
+    width: 40%;
+    height: 80%;
+    margin: 10px;
+}
+
+@media(max-width:900px)
+{
+    .memepics1
+    {
+        float:none;
+        width:70%;
+    }
+    .memepics2
+    {
+        float: none;
+        width: 70%;
+    }
+    .memetext1
+    {
+        float: none;
+    }
+    .memetext2
+{
+    float:none;
+}
+    
 }
