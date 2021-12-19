@@ -1,6 +1,9 @@
 body
 {
-    background-color: black;
+    background: #000000;  /* fallback for old browsers */
+    font-family: 'Imperial Script', cursive;
+
+
 }
 img
 {
@@ -26,11 +29,13 @@ img
     color: red;
     float: left;
     margin: 5px;
+    color: maroon;
+    font-size: 30px;
 }
 .memetext2
 {
     float: right;
-    color: red;
+    color: maroon;
     margin: 5px;
 }
 #headpic
@@ -40,7 +45,7 @@ img
 .meme
 {
     margin: 20px;
-    border: 0.5px solid white;
+    
     height: 400px;
     padding: 5px;
 
@@ -65,19 +70,29 @@ img
     width: 40%;
     height: 80%;
     margin: 10px;
+    text-align: center;
+
 }
 
 @media(max-width:900px)
 {
+    .meme
+    {
+        margin-top: 50px;
+        margin : 50px auto;
+        height: 80vh;
+    }
     .memepics1
     {
         float:none;
         width:70%;
+        height: 50%;
     }
     .memepics2
     {
         float: none;
         width: 70%;
+        height: 50%;
     }
     .memetext1
     {
