@@ -29,14 +29,16 @@ img
     color: red;
     float: left;
     margin: 5px;
-    color: maroon;
+    font-family: 'Times New Roman', Times, serif;
+
     font-size: 30px;
 }
 .memetext2
 {
     float: right;
-    color: maroon;
+    color: red;
     margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #headpic
 {
