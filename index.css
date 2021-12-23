@@ -40,6 +40,14 @@ img
     margin: 5px;
     font-family: 'Times New Roman', Times, serif;
 }
+.memetext3
+{
+    font-size: 15px;
+    color: red;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
 #headpic
 {
     width: 100%;
@@ -48,7 +56,7 @@ img
 {
     margin: 20px;
     
-    height: 400px;
+    height: 60vh;
     padding: 5px;
 
    
@@ -70,7 +78,7 @@ img
 {
     float: left;
     width: 40%;
-    height: 80%;
+    height: 60%;
     margin: 10px;
     text-align: center;
 
