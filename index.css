@@ -6,6 +6,7 @@ body
 img
 {
     object-fit: cover;
+    border-radius: 3px;
 }
 .top
 {
@@ -37,13 +38,15 @@ img
     color: blue;
     margin: 5px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
 .memetext3
 {
-    font-size: 15px;
-    color: red;
-    margin: 5px;
+    font-size: 25px;
+    color: blue;
+    margin: 20px;
     font-family: 'Times New Roman', Times, serif;
+    float: right;
 
 }
 #headpic
