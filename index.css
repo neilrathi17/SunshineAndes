@@ -84,7 +84,15 @@ img
     text-align: center;
 
 }
-
+li{
+    list-style-type: none;
+}
+.obsession-list
+{
+    margin-left: none;
+    display: block;
+    margin-bottom: 5px;
+}
 @media(max-width:900px)
 {
     .meme
@@ -113,10 +121,5 @@ img
 {
     float:none;
 }
-    
-}
-a
-{
-    user-select:none;
     
 }
