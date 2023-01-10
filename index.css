@@ -1,7 +1,7 @@
 body
 {
     background: #000000;  /* fallback for old browsers */
-    font-family: 'Imperial Script', cursive;
+    font-family: Garamond, serif;
 }
 img
 {
@@ -111,7 +111,6 @@ li{
   max-width: 1000px;
   position: relative;
   margin: auto;
-  padding: 5px;
 }
 
 /* Hide the images by default */
